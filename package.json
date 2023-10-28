@@ -1,0 +1,19 @@
+{
+  "name": "fee-calculator",
+  "version": "1.0.0",
+  "description": "A fee calculator.",
+  "author": "Andres Jimenez",
+  "type": "module",
+  "main": "main.ts",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node --esm ./src/main.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
